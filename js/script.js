@@ -51,9 +51,10 @@ window.addEventListener("scroll", showOnScroll);
 showOnScroll();
 
 const texts = [
-  "I build real systems",
-  "I build web applications",
-  "I build network solutions"
+  "I build ISP management systems",
+  "I build web apps with javascript",
+  "I  design and build network solutions"
+  
 ];
 
 let index = 0;
