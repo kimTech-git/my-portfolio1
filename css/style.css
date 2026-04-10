@@ -410,7 +410,7 @@ section:not(.hero) {
   right: 20px;
   background-color: #25D366;
   color: white;
-  padding: 15px;
+  padding: 25px;
   border-radius: 50%;
   font-size: 24px;
   z-index: 1000;
@@ -444,4 +444,17 @@ section:not(.hero) {
 
 .details-btn:hover {
   background: #d7dacb;
+}
+.h{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #c4bd80;
+    text-align: center;
+    margin-top: 0px;
+
+    font-weight: bold;
+}
+.h2{
+    color: #c4bd80;
+    margin-top: 40vh;
 }
