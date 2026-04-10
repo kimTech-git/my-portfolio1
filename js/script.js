@@ -54,7 +54,7 @@ const texts = [
   "I build ISP management systems",
   "I build web apps with javascript",
   "I  design and build network solutions"
-  
+
 ];
 
 let index = 0;
@@ -152,4 +152,19 @@ const navLinks = document.getElementById("nav-links");
 
 menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
+});
+const buttons = document.querySelectorAll(".details-btn");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const details = button.nextElementSibling;
+
+    if (details.style.display === "block") {
+      details.style.display = "none";
+      button.textContent = "View Details";
+    } else {
+      details.style.display = "block";
+      button.textContent = "Hide Details";
+    }
+  });
 });

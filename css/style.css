@@ -91,7 +91,7 @@ body {
 }
 
 .nav-center a:hover {
-  color: #00c3ff;
+  color: #c5da96;
 }
 
 /* search right */
@@ -106,7 +106,7 @@ body {
 
   background: 
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("../images/bg.jpeg");
+    url("../images/dd.jpeg");
 
   background-size: cover;
   background-position: center;
@@ -115,7 +115,7 @@ html {
   scroll-behavior: smooth;
 }
 .nav-center a.active {
-  color: #00c3ff;
+  color: #c4bd80;
 }
 section {
   padding: 80px 20px;
@@ -177,14 +177,14 @@ section:not(.hero) {
 .project-card a {
   text-decoration: none;
   color: white;
-  background: #007BFF;
+  background: #c4bd80;
   padding: 8px 15px;
   border-radius: 5px;
   display: inline-block;
 }
 
 .project-card a:hover {
-  background: #0056b3;
+  background: #c4bd80;
 }
 /* hidden state */
 .fade-in {
@@ -245,14 +245,14 @@ section:not(.hero) {
 #contact button {
   padding: 12px;
   border: none;
-  background: #007BFF;
+  background: #c4bd80;
   color: white;
   border-radius: 5px;
   cursor: pointer;
 }
 
 #contact button:hover {
-  background: #0056b3;
+  background: #7f8791;
 }
 
 #form-message {
@@ -261,7 +261,7 @@ section:not(.hero) {
 }
 #contact input:focus,
 #contact textarea:focus {
-  border-color: #007BFF;
+  border-color:#c4bd80;
   outline: none;
 }
 /* MOBILE NAV */
@@ -355,9 +355,9 @@ section:not(.hero) {
 .btn1{
     padding: 8px 15px;
     border-radius: 20px;
-    color: thistle;
+    color: rgb(249, 250, 248);
     border: none;
-    background-color: #3e41e4;
+    background-color: #c4bd80;
     outline: none;
 }
 .social-links {
@@ -376,7 +376,7 @@ section:not(.hero) {
 
 .
 .social-links a:hover {
-  color: #007BFF;
+  color: #14171a;
   transform: translateY(-3px);
 }
 .social-links a {
@@ -389,7 +389,7 @@ section:not(.hero) {
 }
 
 .social-links a:nth-child(2):hover {
-  color: #0077b5; /* LinkedIn */
+  color: #c4bd80; /* LinkedIn */
 }
 
 .social-links a:nth-child(3):hover {
@@ -414,4 +414,34 @@ section:not(.hero) {
   border-radius: 50%;
   font-size: 24px;
   z-index: 1000;
+}
+#about p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.project-details {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.project-details a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f8f8f2;
+}
+.details-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  background: #c4bd80;
+  color: #f8f8f2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-btn:hover {
+  background: #d7dacb;
 }
