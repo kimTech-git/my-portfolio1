@@ -379,11 +379,7 @@ section:not(.hero) {
   color: #14171a;
   transform: translateY(-3px);
 }
-.social-links a {
-  background: #f0f0f0;
-  padding: 10px;
-  border-radius: 50%;
-}
+
 .social-links a:nth-child(1):hover {
   color: #333; /* GitHub */
 }
